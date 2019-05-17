@@ -4,7 +4,7 @@
 export PATH="$HOME/esp/xtensa-esp32-elf/bin:$PATH"
 
 # export the location of esp-idf
-export IDF_PATH=~/dev/micro/esp-idf
+export IDF_PATH=./esp-idf/
 
 # default theme of menuconfig is dark
 export MENUCONFIG_COLOR=blackbg
@@ -22,3 +22,5 @@ if [ ! -d .esp_coc_env ]; then
 else
    source .esp_coc_env/bin/activate
 fi
+
+git submodule update --init --recursive
