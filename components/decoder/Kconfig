@@ -1,9 +1,0 @@
-menu "CoC Decoder"
-
-config COC_DECODER_ENABLE
-	bool "enable the CoC decoder"
-	default false
-	help
-		Enable the Cofee-over-Cofee, CoC, decoder.
-
-endmenu

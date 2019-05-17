@@ -43,7 +43,7 @@ static const char *button_names[MAX_PRESS_BUTTONS] = {
 	[PRESS_PUT_WATER_BUTTON] = "put water"
 };
 
-int coffee_press_button(uint8_t button)
+int coffee_press_button(uint8_t button, void *priv)
 {
 	int ret = -1;
 

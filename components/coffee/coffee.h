@@ -34,7 +34,7 @@ struct coffee_options {
 	enum temprature temprature;
 };
 
-int coffee_press_button(uint8_t button);
+int coffee_press_button(uint8_t button, void *priv);
 
 int coffee_make_coffee(struct coffee_options options);
 
